@@ -276,6 +276,7 @@ main .features .block .features__block-1 {
   margin-bottom: 16px;
   height: 451px;
   background-color: rgba(105, 201, 187, 0.1);
+  border-radius: 50px;
 }
 
 main .features .block .features__block-1 a {
@@ -343,6 +344,7 @@ main .features .block .features__block-2 {
   margin-bottom: 16px;
   height: 402px;
   background-color: rgba(156, 105, 226, 0.1);
+  border-radius: 50px;
 }
 
 main .features .block .features__block-2 a {
@@ -409,6 +411,7 @@ main .features .block .features__block-3 {
   padding-top: 25px;
   margin-bottom: 16px;
   background-color: rgba(239, 97, 183, 0.1);
+  border-radius: 50px;
 }
 
 main .features .block .features__block-3 a {
@@ -475,6 +478,7 @@ main .features .block .features__block-4 {
   padding-top: 25px;
   margin-bottom: 16px;
   background-color: rgba(46, 156, 220, 0.1);
+  border-radius: 50px;
 }
 
 main .features .block .features__block-4 a {
@@ -674,9 +678,8 @@ main .testimonial .carousel {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding-bottom: 20px;
 }
 

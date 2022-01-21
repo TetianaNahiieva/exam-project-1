@@ -208,6 +208,7 @@ main {
                 margin-bottom: 16px;    
                 height: 451px;
                 background-color:  hsla(171, 47%, 60%, 0.1);
+                border-radius: 50px;
                 a {  
                    width: 288px;
                     & > img {
@@ -219,7 +220,6 @@ main {
                     display: block;
                     flex-direction: column;
                     padding: 0 15px 25px;
-                    
                     h4 {
                         font-size: 20px;
                         font-weight: 700;
@@ -255,12 +255,12 @@ main {
                 margin-bottom: 16px;
                 height: 402px;
                 background-color: hsla(265, 68%, 65%, 0.1);
+                border-radius: 50px;
                 a {  
                    width: 288px;
                     & > img {
                         padding-bottom: 25px;
                         width: 50%;
-                       
                     }
                 }
                 & .text {
@@ -289,7 +289,6 @@ main {
                         line-height: 26px;
                         color: $color-black; 
                         font-family: 'Avenir', sans-serif;  
-                        
                     } 
                 }   
             }
@@ -302,6 +301,7 @@ main {
                 padding-top: 25px;
                 margin-bottom: 16px;
                 background-color: hsla(324, 82%, 66%, 0.1);
+                border-radius: 50px;
                 a {  
                    width: 288px;
                     & > img {
@@ -347,6 +347,7 @@ main {
                 padding-top: 25px;
                 margin-bottom: 16px;
                 background-color: hsla(202, 71%, 52%, 0.1);
+                border-radius: 50px;
                 a {  
                    width: 288px;
                     & > img {
@@ -380,7 +381,6 @@ main {
                         line-height: 26px;
                         color: $color-black; 
                         font-family: 'Avenir', sans-serif;  
-                        
                     } 
                 }   
             }
@@ -500,7 +500,7 @@ main {
         .about-help {
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: space-around;
             padding-bottom: 20px;
             .about {
                 font-family: 'Avenir', sans-serif;  
@@ -576,7 +576,6 @@ main {
         }
     }   
 }
-
 @media only screen and (min-width: 515px) {
     body {
         min-width: 515px;
